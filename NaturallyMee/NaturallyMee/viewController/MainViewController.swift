@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var newUser: UIButton!
     
     @IBAction func viewProductsButtonTapped(_ sender: UIButton) {
-        print("View products button tapped!")
+        print("works")
     }
     @IBAction func newUserButtonTapped(_ sender: UIButton) {
         print("New User!!!")
