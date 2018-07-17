@@ -10,8 +10,8 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var coconutBodyScrubImageView: UIImageView!
-    @IBOutlet weak var coconutBodyScrubLabel: UILabel!
-    @IBAction func coconutBodyScrubLearnMoreButton(_ sender: UIButton) {
+    @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var productLabel: UILabel!
+    @IBAction func learnMoreButton(_ sender: UIButton) {
     }
 }
