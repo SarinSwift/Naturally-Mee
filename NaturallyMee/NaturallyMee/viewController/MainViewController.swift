@@ -18,7 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var newUser: UIButton!
     
     @IBAction func viewProductsButtonTapped(_ sender: UIButton) {
-        print("works")
+        let storyboard = UIStoryboard(name: "productDisplay", bundle: nil)
+        let productViewController = storyboard.instantiateViewController(withIdentifier: "productDisplay")
+        self.present(productViewController, animated: true, completion: nil)
+        
     }
     @IBAction func newUserButtonTapped(_ sender: UIButton) {
         print("New User!!!")
