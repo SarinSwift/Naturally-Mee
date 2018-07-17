@@ -14,7 +14,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    @IBOutlet weak var viewProductsButton: UIButton!
+    @IBOutlet weak var newUser: UIButton!
+    
+    @IBAction func viewProductsButtonTapped(_ sender: UIButton) {
+        print("View products button tapped!")
+    }
+    @IBAction func newUserButtonTapped(_ sender: UIButton) {
+        print("New User!!!")
+    }
+    
+    
 }
 
