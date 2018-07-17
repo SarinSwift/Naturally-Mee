@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04E23A3D20FD1E7600BAC7D2 /* productDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E23A3C20FD1E7600BAC7D2 /* productDisplay.storyboard */; };
 		04E23A4120FD1F6200BAC7D2 /* productDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23A4020FD1F6200BAC7D2 /* productDisplayViewController.swift */; };
 		04E23A4320FD1F7400BAC7D2 /* productDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23A4220FD1F7400BAC7D2 /* productDetailViewController.swift */; };
 		04FEC90020FD18530087463A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEC8FF20FD18530087463A /* AppDelegate.swift */; };
@@ -41,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E23A3C20FD1E7600BAC7D2 /* productDisplay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = productDisplay.storyboard; sourceTree = "<group>"; };
 		04E23A4020FD1F6200BAC7D2 /* productDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDisplayViewController.swift; sourceTree = "<group>"; };
 		04E23A4220FD1F7400BAC7D2 /* productDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDetailViewController.swift; sourceTree = "<group>"; };
 		04FEC8FC20FD18530087463A /* NaturallyMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturallyMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				04FEC90320FD18530087463A /* Main.storyboard */,
-				04E23A3C20FD1E7600BAC7D2 /* productDisplay.storyboard */,
 				A49387DC20FD6393003209D3 /* productDetail0.storyboard */,
 				A49387DE20FD6951003209D3 /* productDetail1.storyboard */,
 				A49387E220FD6D27003209D3 /* productDetail2.storyboard */,
@@ -266,7 +263,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E23A3D20FD1E7600BAC7D2 /* productDisplay.storyboard in Resources */,
 				04FEC90A20FD18530087463A /* LaunchScreen.storyboard in Resources */,
 				A49387E520FD7D64003209D3 /* productDetail3.storyboard in Resources */,
 				A49387DD20FD6393003209D3 /* productDetail0.storyboard in Resources */,
