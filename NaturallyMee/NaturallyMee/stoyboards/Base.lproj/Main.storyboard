@@ -91,7 +91,7 @@
         <!--Short Description-->
         <scene sceneID="UdH-Wl-jao">
             <objects>
-                <viewController id="TjS-WE-k7X" userLabel="Short Description" sceneMemberID="viewController">
+                <viewController id="TjS-WE-k7X" userLabel="Short Description" customClass="ViewController" customModule="NaturallyMee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uhZ-4M-N5k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,6 +116,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="secondViewProductsButtonTapped:" destination="TjS-WE-k7X" eventType="touchUpInside" id="fLZ-fW-sdJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

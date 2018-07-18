@@ -23,6 +23,13 @@ class ViewController: UIViewController {
         self.present(productViewController, animated: true, completion: nil)
         
     }
+    @IBAction func secondViewProductsButtonTapped(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "productDisplay", bundle: nil)
+        let productViewController = storyboard.instantiateViewController(withIdentifier: "productDisplay")
+        self.present(productViewController, animated: true, completion: nil)
+    }
+    
+    
     @IBAction func newUserButtonTapped(_ sender: UIButton) {
         print("New User!!!")
     }
