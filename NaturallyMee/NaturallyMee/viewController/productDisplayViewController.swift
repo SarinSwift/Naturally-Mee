@@ -30,6 +30,8 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
             collectionView.dataSource = self
             collectionView.delegate = self
             
+            func setUpNavigationBarItems ()
+            
 //        let width = (view.frame.size.width - 10 )/2
 //            let layout = collectionView.collectionViewLayout
 //            layout.itemSize = CGSize(width: (self.collectionView.frame.size.width/2.0), height: (self.collectionView.frame.size.height/2))
