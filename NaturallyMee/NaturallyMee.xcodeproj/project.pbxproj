@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04E23A3D20FD1E7600BAC7D2 /* productDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E23A3C20FD1E7600BAC7D2 /* productDisplay.storyboard */; };
-		04E23A3F20FD1E8200BAC7D2 /* productDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E23A3E20FD1E8200BAC7D2 /* productDetail.storyboard */; };
 		04E23A4120FD1F6200BAC7D2 /* productDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23A4020FD1F6200BAC7D2 /* productDisplayViewController.swift */; };
 		04E23A4320FD1F7400BAC7D2 /* productDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23A4220FD1F7400BAC7D2 /* productDetailViewController.swift */; };
 		04FEC90020FD18530087463A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEC8FF20FD18530087463A /* AppDelegate.swift */; };
@@ -39,8 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E23A3C20FD1E7600BAC7D2 /* productDisplay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = productDisplay.storyboard; sourceTree = "<group>"; };
-		04E23A3E20FD1E8200BAC7D2 /* productDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = productDetail.storyboard; sourceTree = "<group>"; };
 		04E23A4020FD1F6200BAC7D2 /* productDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDisplayViewController.swift; sourceTree = "<group>"; };
 		04E23A4220FD1F7400BAC7D2 /* productDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDetailViewController.swift; sourceTree = "<group>"; };
 		04FEC8FC20FD18530087463A /* NaturallyMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturallyMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,9 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				04FEC90320FD18530087463A /* Main.storyboard */,
-				04E23A3C20FD1E7600BAC7D2 /* productDisplay.storyboard */,
 				B8346C6A20FD38F4002A8BB8 /* CollectionViewCell.swift */,
-				04E23A3E20FD1E8200BAC7D2 /* productDetail.storyboard */,
 			);
 			path = stoyboards;
 			sourceTree = "<group>";
@@ -260,8 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E23A3F20FD1E8200BAC7D2 /* productDetail.storyboard in Resources */,
-				04E23A3D20FD1E7600BAC7D2 /* productDisplay.storyboard in Resources */,
 				04FEC90A20FD18530087463A /* LaunchScreen.storyboard in Resources */,
 				04FEC90720FD18530087463A /* Assets.xcassets in Resources */,
 				04FEC90520FD18530087463A /* Main.storyboard in Resources */,
@@ -470,6 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NaturallyMee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NaturallyMee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

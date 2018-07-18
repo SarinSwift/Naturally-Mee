@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Product Detail View Controller-->
+        <scene sceneID="RUs-jS-Pcx">
+            <objects>
+                <viewController id="zHN-jA-ptG" customClass="productDetailViewController" customModule="NaturallyMee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yh5-qw-kbl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenTeaMoisturizingCream" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-3C-BJZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="255"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="255" id="qup-RM-9wp"/>
+                                    <constraint firstAttribute="width" constant="375" id="tcj-5P-cyJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green Tea EGCG Concentrate Cream" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSB-Dr-O3X">
+                                <rect key="frame" x="22" y="320" width="331" height="27"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$45.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYj-bx-Jdh">
+                                <rect key="frame" x="160" y="365" width="55" height="27"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="19"/>
+                                <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NPR-Py-p2F">
+                                <rect key="frame" x="45" y="424" width="285" height="135"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="RyL-Tv-gFY"/>
+                                    <constraint firstAttribute="height" constant="135" id="kxj-o8-Ule"/>
+                                </constraints>
+                                <string key="text">Highly nutrient rich moisturizer softens and fortifies skin. EGCG, the potent antioxident from green tea, protects against environmental damage.</string>
+                                <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xgq-2f-XQI">
+                                <rect key="frame" x="45" y="586" width="285" height="35"/>
+                                <color key="backgroundColor" red="0.4823529412" green="0.72941176470000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="OD3-3J-ERo"/>
+                                    <constraint firstAttribute="height" constant="35" id="aqK-bP-M53"/>
+                                </constraints>
+                                <state key="normal" title="Buy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buyButtonTapped1:" destination="zHN-jA-ptG" eventType="touchUpInside" id="JNb-cv-MfI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NPR-Py-p2F" firstAttribute="top" secondItem="XYj-bx-Jdh" secondAttribute="bottom" constant="32" id="AAY-tg-c1D"/>
+                            <constraint firstItem="tSB-Dr-O3X" firstAttribute="centerX" secondItem="yh5-qw-kbl" secondAttribute="centerX" id="D3K-Ew-LUj"/>
+                            <constraint firstItem="lf1-3C-BJZ" firstAttribute="top" secondItem="yh5-qw-kbl" secondAttribute="top" id="Dge-S5-qFK"/>
+                            <constraint firstItem="tSB-Dr-O3X" firstAttribute="centerY" secondItem="yh5-qw-kbl" secondAttribute="centerY" id="Fco-LO-u9e"/>
+                            <constraint firstItem="lf1-3C-BJZ" firstAttribute="trailing" secondItem="LcL-qN-aMj" secondAttribute="trailing" id="HFR-F4-hhA"/>
+                            <constraint firstItem="NPR-Py-p2F" firstAttribute="centerX" secondItem="yh5-qw-kbl" secondAttribute="centerX" id="KtK-MC-afd"/>
+                            <constraint firstItem="Xgq-2f-XQI" firstAttribute="centerX" secondItem="yh5-qw-kbl" secondAttribute="centerX" id="Wkq-wg-SQ4"/>
+                            <constraint firstItem="tSB-Dr-O3X" firstAttribute="centerY" secondItem="yh5-qw-kbl" secondAttribute="centerY" id="dGB-Et-d8N"/>
+                            <constraint firstItem="XYj-bx-Jdh" firstAttribute="centerX" secondItem="yh5-qw-kbl" secondAttribute="centerX" id="f5U-Cd-gur"/>
+                            <constraint firstItem="XYj-bx-Jdh" firstAttribute="top" secondItem="tSB-Dr-O3X" secondAttribute="bottom" constant="18" id="hCE-CX-rxV"/>
+                            <constraint firstItem="lf1-3C-BJZ" firstAttribute="leading" secondItem="LcL-qN-aMj" secondAttribute="leading" id="hsV-gM-lF5"/>
+                            <constraint firstItem="Xgq-2f-XQI" firstAttribute="top" secondItem="NPR-Py-p2F" secondAttribute="bottom" constant="27" id="jT7-dV-cmS"/>
+                            <constraint firstItem="tSB-Dr-O3X" firstAttribute="top" secondItem="lf1-3C-BJZ" secondAttribute="bottom" constant="65" id="ka8-dZ-PZO"/>
+                            <constraint firstItem="tSB-Dr-O3X" firstAttribute="centerX" secondItem="yh5-qw-kbl" secondAttribute="centerX" id="zNn-0q-TAJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LcL-qN-aMj"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBound" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fuf-qW-muu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.8" y="131.78410794602701"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GreenTeaMoisturizingCream" width="1024" height="1024"/>
+    </resources>
+</document>
