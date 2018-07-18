@@ -16,7 +16,7 @@
 		04FEC90A20FD18530087463A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FEC90820FD18530087463A /* LaunchScreen.storyboard */; };
 		04FEC91520FD18530087463A /* NaturallyMeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEC91420FD18530087463A /* NaturallyMeeTests.swift */; };
 		04FEC92020FD18540087463A /* NaturallyMeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEC91F20FD18540087463A /* NaturallyMeeUITests.swift */; };
-		B8346C6B20FD38F4002A8BB8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8346C6A20FD38F4002A8BB8 /* CollectionViewCell.swift */; };
+		B83367D020FDA2F600F38F2F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83367CF20FDA2F600F38F2F /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		04FEC91B20FD18530087463A /* NaturallyMeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturallyMeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FEC91F20FD18540087463A /* NaturallyMeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturallyMeeUITests.swift; sourceTree = "<group>"; };
 		04FEC92120FD18540087463A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8346C6A20FD38F4002A8BB8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B83367CF20FDA2F600F38F2F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				04FEC90320FD18530087463A /* Main.storyboard */,
+				04E23A3C20FD1E7600BAC7D2 /* productDisplay.storyboard */,
+				04E23A3E20FD1E8200BAC7D2 /* productDetail.storyboard */,
 				B8346C6A20FD38F4002A8BB8 /* CollectionViewCell.swift */,
 			);
 			path = stoyboards;
@@ -95,6 +97,7 @@
 				04FEC90120FD18530087463A /* MainViewController.swift */,
 				04E23A4020FD1F6200BAC7D2 /* productDisplayViewController.swift */,
 				04E23A4220FD1F7400BAC7D2 /* productDetailViewController.swift */,
+				B83367CF20FDA2F600F38F2F /* CollectionViewCell.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -281,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8346C6B20FD38F4002A8BB8 /* CollectionViewCell.swift in Sources */,
+				B83367D020FDA2F600F38F2F /* CollectionViewCell.swift in Sources */,
 				04E23A4120FD1F6200BAC7D2 /* productDisplayViewController.swift in Sources */,
 				04E23A4320FD1F7400BAC7D2 /* productDetailViewController.swift in Sources */,
 				04FEC90220FD18530087463A /* MainViewController.swift in Sources */,
