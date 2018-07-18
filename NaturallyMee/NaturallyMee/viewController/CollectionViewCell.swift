@@ -12,6 +12,6 @@ class CollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var productImage: UIImageView!
     @IBOutlet weak var productLabel: UILabel!
-    @IBAction func learnMoreButton(_ sender: UIButton) {
-    }
+   
+    @IBOutlet weak var cellView: UIView!
 }
