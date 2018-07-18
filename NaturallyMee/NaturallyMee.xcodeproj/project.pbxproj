@@ -17,6 +17,7 @@
 		04FEC91520FD18530087463A /* NaturallyMeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEC91420FD18530087463A /* NaturallyMeeTests.swift */; };
 		04FEC92020FD18540087463A /* NaturallyMeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEC91F20FD18540087463A /* NaturallyMeeUITests.swift */; };
 		B83367D020FDA2F600F38F2F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83367CF20FDA2F600F38F2F /* CollectionViewCell.swift */; };
+		B83BA7BD20FFE3380036CCC7 /* productDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83BA7BC20FFE3380036CCC7 /* productDisplay.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		04FEC91F20FD18540087463A /* NaturallyMeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturallyMeeUITests.swift; sourceTree = "<group>"; };
 		04FEC92120FD18540087463A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B83367CF20FDA2F600F38F2F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B83BA7BC20FFE3380036CCC7 /* productDisplay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = productDisplay.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				04FEC90320FD18530087463A /* Main.storyboard */,
-				04E23A3C20FD1E7600BAC7D2 /* productDisplay.storyboard */,
-				04E23A3E20FD1E8200BAC7D2 /* productDetail.storyboard */,
-				B8346C6A20FD38F4002A8BB8 /* CollectionViewCell.swift */,
+				B83BA7BC20FFE3380036CCC7 /* productDisplay.storyboard */,
 			);
 			path = stoyboards;
 			sourceTree = "<group>";
@@ -260,6 +260,7 @@
 				04FEC90A20FD18530087463A /* LaunchScreen.storyboard in Resources */,
 				04FEC90720FD18530087463A /* Assets.xcassets in Resources */,
 				04FEC90520FD18530087463A /* Main.storyboard in Resources */,
+				B83BA7BD20FFE3380036CCC7 /* productDisplay.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
