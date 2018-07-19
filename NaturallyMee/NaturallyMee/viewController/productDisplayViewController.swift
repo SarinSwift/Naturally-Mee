@@ -16,10 +16,10 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
     
     
     var products: [Product] = [
-        Product(image: #imageLiteral(resourceName: "coconutBodyScrub"), name: "Coconut Body Scrub", description: "Deeply moisturizing, softening body scrub buffs away bumps and flakes for incredibly silky, smooth skin. Replenishes vibrancy with potent anti-againg antioxidants and vitamins for a youthful glow. Nutrient rich plant oils deeply nourish for soft, supple skin while fruit acids reveal brightness. Free of any synthetic fragrances, chemical preservatives, artificial dyes, petro chemicals or any other toxins. Truly, 100% Pure.", price: "$36.00"),
-        Product(image: #imageLiteral(resourceName: "greenTeaCream"), name: "Green Tea EGCG Concentrate Cream", description: "Highly nutrient rich moisturizer softens and fortifies skin. EGCG, the potent antioxident from green tea, protects against environmental damage.", price: "$45.00"),
-        Product(image: #imageLiteral(resourceName: "HandSani"), name: "All Natural Hand Sanitizer", description: "NATURALLLY MEE's  All Natural Hand Sanitizer includes an assortment of essential oils such as lemon oil and clove oil which has great antioxidant properties. Unlike conventional hand sanitizers, NATURALLY MEE's All Natural Hand Sanitizer includes cocoanut oil as a moisturizer.", price: "$10.00"),
-        Product(image: #imageLiteral(resourceName: "naturalSoap"), name: "All Natural Soap Bar", description: "NATURALLY MEE's All Natural Cucumber-Melon Soap Bar is a hand-crafted body soap with a refreshing scent. This soap includes honeydew melons mixed with freshly sliced cucumbers.", price: "$12.00")
+        Product(image: #imageLiteral(resourceName: "coconutBodyScrub"), name: "Coconut Body Scrub", description: "Deeply moisturizing, softening body scrub buffs away bumps and flakes for incredibly silky, smooth skin. Replenishes vibrancy with potent anti-againg antioxidants and vitamins for a youthful glow. Nutrient rich plant oils deeply nourish for soft, supple skin while fruit acids reveal brightness. Free of any synthetic fragrances, chemical preservatives, artificial dyes, petro chemicals or any other toxins. Truly, 100% Pure.", price: "$36.00", link: "https://www.100percentpure.com/collections/body-scrub/products/coconut-body-scrub"),
+        Product(image: #imageLiteral(resourceName: "greenTeaCream"), name: "Green Tea EGCG Concentrate Cream", description: "Highly nutrient rich moisturizer softens and fortifies skin. EGCG, the potent antioxident from green tea, protects against environmental damage.", price: "$45.00", link: "https://www.100percentpure.com/collections/moisturizers/products/green-tea-egcg-concentrate-cream?variant=1730069692440"),
+        Product(image: #imageLiteral(resourceName: "HandSani"), name: "All Natural Hand Sanitizer", description: "NATURALLLY MEE's  All Natural Hand Sanitizer includes an assortment of essential oils such as lemon oil and clove oil which has great antioxidant properties. Unlike conventional hand sanitizers, NATURALLY MEE's All Natural Hand Sanitizer includes cocoanut oil as a moisturizer.", price: "$10.00", link: "http://naturallymee.com"),
+        Product(image: #imageLiteral(resourceName: "naturalSoap"), name: "All Natural Soap Bar", description: "NATURALLY MEE's All Natural Cucumber-Melon Soap Bar is a hand-crafted body soap with a refreshing scent. This soap includes honeydew melons mixed with freshly sliced cucumbers.", price: "$12.00", link: "http://naturallymee.com")
     ]
     
     
@@ -112,7 +112,7 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
         }
         
         productDetailViewController.product = product
-        navigationController!.pushViewController(productDetailViewController, animated: true)
+        navigationController?.pushViewController(productDetailViewController, animated: true)
         
         
     }

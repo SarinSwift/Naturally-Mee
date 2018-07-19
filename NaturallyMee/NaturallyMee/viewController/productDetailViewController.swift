@@ -21,8 +21,7 @@ class ProductDetailViewController: UIViewController {
     @IBOutlet weak var productPriceLabel: UILabel!
     @IBOutlet weak var productDescriptionTextView: UITextView!
     
-    @IBAction func buyButton(_ sender: UIButton) {
-    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +50,12 @@ class ProductDetailViewController: UIViewController {
     
     
     // MARK: - IBAction Methods
+    @IBAction func buyButton(_ sender: UIButton) {
+        
+        let url = URL(string: (product?.link)!)
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+        
+    }
     
 //    @IBAction func buyButtonTapped(_ sender: UIButton) {
 //        
