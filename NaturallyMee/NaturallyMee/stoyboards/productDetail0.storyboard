@@ -18,13 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FvK-5B-e2G">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="255"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="255" id="1AH-9W-Ea2"/>
-                                    <constraint firstAttribute="width" constant="375" id="HX1-HE-cQm"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnl-W0-OKj">
                                 <rect key="frame" x="167.5" y="324.5" width="41" height="18"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
@@ -68,10 +61,18 @@
                                     <action selector="buyButton:" destination="XTg-fq-B67" eventType="touchUpInside" id="3Co-Or-ap0"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FvK-5B-e2G">
+                                <rect key="frame" x="0.0" y="45" width="375" height="255"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="255" id="1AH-9W-Ea2"/>
+                                    <constraint firstAttribute="width" constant="375" id="HX1-HE-cQm"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="l5I-AC-b4c" firstAttribute="centerX" secondItem="Ody-Ba-WVM" secondAttribute="centerX" id="Haf-el-0Xy"/>
+                            <constraint firstItem="FvK-5B-e2G" firstAttribute="top" secondItem="RtN-8G-bAX" secondAttribute="top" constant="25" id="PLa-G5-qOd"/>
                             <constraint firstItem="xnl-W0-OKj" firstAttribute="centerY" secondItem="Ody-Ba-WVM" secondAttribute="centerY" id="SWB-Jl-VaM"/>
                             <constraint firstItem="FvK-5B-e2G" firstAttribute="trailing" secondItem="RtN-8G-bAX" secondAttribute="trailing" id="SqE-Rm-CJp"/>
                             <constraint firstItem="xnl-W0-OKj" firstAttribute="centerX" secondItem="Ody-Ba-WVM" secondAttribute="centerX" id="T7i-ub-n4X"/>
@@ -81,7 +82,6 @@
                             <constraint firstItem="xnl-W0-OKj" firstAttribute="centerY" secondItem="Ody-Ba-WVM" secondAttribute="centerY" id="kmz-o7-Ery"/>
                             <constraint firstItem="FvK-5B-e2G" firstAttribute="leading" secondItem="RtN-8G-bAX" secondAttribute="leading" id="pfw-3H-1Py"/>
                             <constraint firstItem="ZCd-0h-lBN" firstAttribute="centerX" secondItem="Ody-Ba-WVM" secondAttribute="centerX" id="r8n-bF-OKv"/>
-                            <constraint firstItem="FvK-5B-e2G" firstAttribute="top" secondItem="Ody-Ba-WVM" secondAttribute="top" id="rOj-8w-Df8"/>
                             <constraint firstItem="ZCd-0h-lBN" firstAttribute="top" secondItem="Dwc-z6-pwf" secondAttribute="bottom" constant="27" id="sEj-5g-lI8"/>
                             <constraint firstItem="xnl-W0-OKj" firstAttribute="centerX" secondItem="Ody-Ba-WVM" secondAttribute="centerX" id="u9K-Qf-WQy"/>
                         </constraints>
