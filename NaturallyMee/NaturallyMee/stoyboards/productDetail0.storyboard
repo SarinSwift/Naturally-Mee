@@ -26,19 +26,19 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnl-W0-OKj">
-                                <rect key="frame" x="167.5" y="320" width="41" height="27"/>
+                                <rect key="frame" x="167.5" y="324.5" width="41" height="18"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5I-AC-b4c">
-                                <rect key="frame" x="167" y="365" width="41.5" height="27"/>
+                                <rect key="frame" x="167" y="360.5" width="41.5" height="27"/>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="19"/>
                                 <color key="textColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="description" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dwc-z6-pwf">
-                                <rect key="frame" x="45" y="424" width="285" height="135"/>
+                                <rect key="frame" x="45" y="419.5" width="285" height="135"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="135" id="MOs-NN-daF"/>
@@ -49,7 +49,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCd-0h-lBN">
-                                <rect key="frame" x="45" y="586" width="285" height="35"/>
+                                <rect key="frame" x="45" y="581.5" width="285" height="35"/>
                                 <color key="backgroundColor" red="0.4823529412" green="0.72941176470000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="fQw-cJ-FVy"/>
@@ -84,7 +84,6 @@
                             <constraint firstItem="FvK-5B-e2G" firstAttribute="top" secondItem="Ody-Ba-WVM" secondAttribute="top" id="rOj-8w-Df8"/>
                             <constraint firstItem="ZCd-0h-lBN" firstAttribute="top" secondItem="Dwc-z6-pwf" secondAttribute="bottom" constant="27" id="sEj-5g-lI8"/>
                             <constraint firstItem="xnl-W0-OKj" firstAttribute="centerX" secondItem="Ody-Ba-WVM" secondAttribute="centerX" id="u9K-Qf-WQy"/>
-                            <constraint firstItem="xnl-W0-OKj" firstAttribute="top" secondItem="FvK-5B-e2G" secondAttribute="bottom" constant="65" id="xbu-UR-hGQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RtN-8G-bAX"/>
                     </view>

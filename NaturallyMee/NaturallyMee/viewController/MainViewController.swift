@@ -14,9 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    // MARK: IBOutlets
     @IBOutlet weak var viewProductsButton: UIButton!
     @IBOutlet weak var newUser: UIButton!
     
+    
+    // MARK: IBActions
     @IBAction func viewProductsButtonTapped(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "productDisplay", bundle: nil)
         let productViewController = storyboard.instantiateViewController(withIdentifier: "productDisplay")
@@ -28,7 +32,6 @@ class ViewController: UIViewController {
         let productViewController = storyboard.instantiateViewController(withIdentifier: "productDisplay")
         self.present(productViewController, animated: true, completion: nil)
     }
-    
     
     @IBAction func newUserButtonTapped(_ sender: UIButton) {
         print("New User!!!")
