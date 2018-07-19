@@ -127,6 +127,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="secondViewProductsButtonTapped:" destination="TjS-WE-k7X" eventType="touchUpInside" id="fLZ-fW-sdJ"/>
+                                    <segue destination="m8V-fm-ha7" kind="show" id="aFo-Ua-279"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -146,6 +147,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qJw-0b-myr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2006" y="134"/>
+        </scene>
+        <!--productDisplay-->
+        <scene sceneID="bAq-5V-krZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="productDisplay" id="m8V-fm-ha7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N2X-Ck-CNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2008" y="557"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HGd-zZ-nRw">
