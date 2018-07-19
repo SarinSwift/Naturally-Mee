@@ -15,3 +15,4 @@ class CollectionViewCell: UICollectionViewCell {
    
     @IBOutlet weak var cellView: UIView!
 }
+
