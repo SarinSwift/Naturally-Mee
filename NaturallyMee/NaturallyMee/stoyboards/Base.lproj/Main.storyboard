@@ -108,7 +108,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BIo-gU-lIr">
                                 <rect key="frame" x="25" y="224" width="325" height="293"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Naturally Mee caters to individuals who care about what they're putting on or in their bodies. Our app is for people who appreciate what they look like naturally and are desiring to find products that support them.</string>
+                                <string key="text">Naturally Mee caters to individuals who care about what they put in and on their bodies. Our app is for people who appreciate what they look like naturally and desire to find products that support them.</string>
                                 <color key="textColor" red="0.4823529412" green="0.72941176470000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

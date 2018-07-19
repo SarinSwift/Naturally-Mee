@@ -51,6 +51,7 @@ class ProductDetailViewController: UIViewController {
     
     // MARK: - IBAction Methods
     @IBAction func buyButton(_ sender: UIButton) {
+        sender.pulsate()
         
         let url = URL(string: (product?.link)!)
         UIApplication.shared.open(url!, options: [:], completionHandler: nil)
