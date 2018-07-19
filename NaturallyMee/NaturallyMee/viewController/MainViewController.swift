@@ -22,18 +22,21 @@ class ViewController: UIViewController {
     
     // MARK: IBActions
     @IBAction func viewProductsButtonTapped(_ sender: UIButton) {
+        sender.pulsate()
         let storyboard = UIStoryboard(name: "productDisplay", bundle: nil)
         let productViewController = storyboard.instantiateViewController(withIdentifier: "productDisplay")
         self.present(productViewController, animated: true, completion: nil)
         
     }
     @IBAction func secondViewProductsButtonTapped(_ sender: UIButton) {
+        sender.pulsate()
         let storyboard = UIStoryboard(name: "productDisplay", bundle: nil)
         let productViewController = storyboard.instantiateViewController(withIdentifier: "productDisplay")
         self.present(productViewController, animated: true, completion: nil)
     }
     
     @IBAction func newUserButtonTapped(_ sender: UIButton) {
+        sender.pulsate()
         print("New User!!!")
     }
     

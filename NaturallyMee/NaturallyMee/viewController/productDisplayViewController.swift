@@ -105,9 +105,10 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
     //    }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+          
         
         let product = products[indexPath.item]
-        
+     
         let storyboard = UIStoryboard(name: "productDetail0", bundle: .main)
         guard
             let intialVc = storyboard.instantiateInitialViewController(),
@@ -117,6 +118,7 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
         
         productDetailViewController.product = product
         navigationController?.pushViewController(productDetailViewController, animated: true)
+        
         
         
     }

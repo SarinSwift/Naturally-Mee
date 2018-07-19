@@ -20,6 +20,7 @@
 		A462EE8020FFE9290075CFE9 /* productDetail0.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A462EE7C20FFE9290075CFE9 /* productDetail0.storyboard */; };
 		B83367D020FDA2F600F38F2F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83367CF20FDA2F600F38F2F /* CollectionViewCell.swift */; };
 		B83BA7C020FFF7810036CCC7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83BA7BF20FFF7810036CCC7 /* Product.swift */; };
+		B8CC95BA2101458A00B693AB /* animation .swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC95B92101458A00B693AB /* animation .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A462EE7C20FFE9290075CFE9 /* productDetail0.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = productDetail0.storyboard; sourceTree = "<group>"; };
 		B83367CF20FDA2F600F38F2F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B83BA7BF20FFF7810036CCC7 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B8CC95B92101458A00B693AB /* animation .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "animation .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				04E23A4020FD1F6200BAC7D2 /* productDisplayViewController.swift */,
 				04E23A4220FD1F7400BAC7D2 /* productDetailViewController.swift */,
 				B83367CF20FDA2F600F38F2F /* CollectionViewCell.swift */,
+				B8CC95B92101458A00B693AB /* animation .swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				B83367D020FDA2F600F38F2F /* CollectionViewCell.swift in Sources */,
 				04E23A4120FD1F6200BAC7D2 /* productDisplayViewController.swift in Sources */,
+				B8CC95BA2101458A00B693AB /* animation .swift in Sources */,
 				04E23A4320FD1F7400BAC7D2 /* productDetailViewController.swift in Sources */,
 				04FEC90220FD18530087463A /* MainViewController.swift in Sources */,
 				04FEC90020FD18530087463A /* AppDelegate.swift in Sources */,
