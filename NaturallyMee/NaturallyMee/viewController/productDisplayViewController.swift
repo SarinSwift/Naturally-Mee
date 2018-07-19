@@ -13,6 +13,10 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
     
     @IBOutlet weak var collectionView: UICollectionView!
     
+    
+    
+    
+    
  
     
     let items = ["Coconut Body Scrub", "Green Tea Cream", "Natural Hand Sanitizer", "Natural Soap"]
@@ -30,7 +34,9 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
             collectionView.dataSource = self
             collectionView.delegate = self
             
-            func setUpNavigationBarItems ()
+            func setUpNavigationBarItems () {
+                
+            }
             
 //        let width = (view.frame.size.width - 10 )/2
 //            let layout = collectionView.collectionViewLayout
