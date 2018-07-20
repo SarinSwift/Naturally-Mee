@@ -149,6 +149,7 @@
                     <navigationItem key="navigationItem" title="Natural Products" id="g4R-ut-hGF">
                         <barButtonItem key="leftBarButtonItem" title="Home" id="Jh0-Yh-pNn">
                             <connections>
+                                <action selector="homeButton:" destination="17j-ZE-n4n" id="y27-tr-Gii"/>
                                 <segue destination="kLq-dt-03t" kind="show" id="uXo-G9-fS9"/>
                             </connections>
                         </barButtonItem>
