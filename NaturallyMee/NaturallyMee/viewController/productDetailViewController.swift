@@ -22,11 +22,9 @@ class ProductDetailViewController: UIViewController {
     @IBOutlet weak var productDescriptionTextView: UITextView!
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+      
         view.backgroundColor = UIColor.white
        
         if let productName = product?.name, let productImage = product?.image, let productDescription = product?.description, let productPrice = product?.price {
@@ -46,8 +44,6 @@ class ProductDetailViewController: UIViewController {
         
         
     }
-    
-    
     
     // MARK: - IBAction Methods
     @IBAction func buyButton(_ sender: UIButton) {
