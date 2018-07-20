@@ -11,6 +11,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Main-->
+        <scene sceneID="6Gl-zH-ejp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="kLq-dt-03t" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1c7-Za-Rdf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="epC-KT-NNv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="744" y="158"/>
+        </scene>
         <!--Natural Products-->
         <scene sceneID="LEZ-Xe-TOJ">
             <objects>
@@ -136,7 +146,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uHF-rk-FbO"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Natural Products" id="g4R-ut-hGF"/>
+                    <navigationItem key="navigationItem" title="Natural Products" id="g4R-ut-hGF">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="Jh0-Yh-pNn">
+                            <connections>
+                                <segue destination="kLq-dt-03t" kind="show" id="uXo-G9-fS9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="XrW-bA-K03" id="NXm-hl-RhZ"/>
                     </connections>
