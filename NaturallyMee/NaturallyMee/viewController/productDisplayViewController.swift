@@ -76,6 +76,7 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
     
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
         print(products.count)
         let product = products[indexPath.item]
@@ -106,8 +107,12 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        let product = products[indexPath.item]
+       
+        let cell = collectionView.cellForItem(at: indexPath)
+            cell?.pulsateAnimation()
         
+        let product = products[indexPath.item]
+     
         let storyboard = UIStoryboard(name: "productDetail0", bundle: .main)
         guard
             let intialVc = storyboard.instantiateInitialViewController(),
@@ -117,6 +122,7 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
         
         productDetailViewController.product = product
         navigationController?.pushViewController(productDetailViewController, animated: true)
+        
         
         
     }
