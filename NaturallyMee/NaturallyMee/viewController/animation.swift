@@ -25,7 +25,7 @@ extension UIButton  {
         
     }
 }
-}
+
  extension UIView {
     func pulsateCell(){
        
