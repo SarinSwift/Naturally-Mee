@@ -111,14 +111,16 @@ class ProductDisplayViewController: UIViewController, UICollectionViewDataSource
         productDetailViewController.product = product
         navigationController?.pushViewController(productDetailViewController, animated: true)
         
-    }
-    @IBAction func homeButton(_ sender: Any) {
         
-        navigationController?.popViewController(animated: true)
-        dismiss(animated: true, completion: nil)
 
-        
     }
+//    @IBAction func homeButton(_ sender: Any) {
+//
+//        navigationController?.popViewController(animated: true)
+//        dismiss(animated: true, completion: nil)
+//
+//
+//    }
 }
 
 

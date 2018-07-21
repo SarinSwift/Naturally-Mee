@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LAS-NH-iJl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LAS-NH-iJl">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,13 +19,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHF-mI-KTe" userLabel="viewProducts">
-                                <rect key="frame" x="80" y="430" width="215" height="32"/>
+                                <rect key="frame" x="80" y="476" width="215" height="60"/>
                                 <color key="backgroundColor" red="0.4823529411764706" green="0.72941176470588232" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="215" id="YL5-VQ-vnU"/>
-                                    <constraint firstAttribute="height" constant="32" id="tVa-38-hKt"/>
+                                    <constraint firstAttribute="height" constant="60" id="t0E-Eo-9hu"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="xPN-hd-gyb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="View Products">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -40,14 +41,14 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Jg0-Ab-p4y">
-                                <rect key="frame" x="67" y="182" width="240" height="197"/>
+                                <rect key="frame" x="67" y="204" width="240" height="197"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="9ad-eY-kv8"/>
                                     <constraint firstAttribute="height" constant="197" id="NXA-t8-GqD"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJE-EY-0wb">
-                                <rect key="frame" x="156" y="470" width="63" height="29"/>
+                                <rect key="frame" x="156" y="546" width="63" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="Al5-az-fNl"/>
                                     <constraint firstAttribute="width" constant="63" id="C1d-01-SDk"/>
@@ -67,13 +68,10 @@
                             <constraint firstItem="Jg0-Ab-p4y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="2nU-bH-QiC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jg0-Ab-p4y" secondAttribute="trailing" constant="68" id="386-bV-Ccg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MJE-EY-0wb" secondAttribute="trailing" constant="156" id="5UI-Ch-eV4"/>
-                            <constraint firstItem="MHF-mI-KTe" firstAttribute="top" secondItem="Jg0-Ab-p4y" secondAttribute="bottom" constant="51" id="9Y2-0h-ZIV"/>
-                            <constraint firstItem="MJE-EY-0wb" firstAttribute="top" secondItem="MHF-mI-KTe" secondAttribute="bottom" constant="8" id="GbR-41-vWz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MJE-EY-0wb" secondAttribute="bottom" constant="168" id="It0-IF-qpB"/>
+                            <constraint firstItem="MJE-EY-0wb" firstAttribute="top" secondItem="MHF-mI-KTe" secondAttribute="bottom" constant="10" id="Hp8-0r-MIy"/>
+                            <constraint firstItem="MHF-mI-KTe" firstAttribute="top" secondItem="Jg0-Ab-p4y" secondAttribute="bottom" constant="75" id="MiA-mt-HZd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MHF-mI-KTe" secondAttribute="trailing" constant="80" id="f9J-Qw-jHO"/>
-                            <constraint firstItem="Jg0-Ab-p4y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="118" id="fhl-6x-iBo"/>
-                            <constraint firstItem="MJE-EY-0wb" firstAttribute="top" secondItem="MHF-mI-KTe" secondAttribute="bottom" constant="8" id="iOH-yb-E9b"/>
-                            <constraint firstItem="MHF-mI-KTe" firstAttribute="top" secondItem="Jg0-Ab-p4y" secondAttribute="bottom" constant="51" id="iPI-PP-904"/>
+                            <constraint firstItem="Jg0-Ab-p4y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="fhl-6x-iBo"/>
                             <constraint firstItem="MJE-EY-0wb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="l4Z-nf-XBK"/>
                             <constraint firstItem="MHF-mI-KTe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="pER-lB-BNz"/>
                         </constraints>
@@ -106,7 +104,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BIo-gU-lIr">
-                                <rect key="frame" x="25" y="224" width="325" height="293"/>
+                                <rect key="frame" x="25" y="234" width="325" height="283"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Naturally Mee caters to individuals who care about what they put in and on their bodies. Our app is for people who appreciate what they look like naturally and desire to find products that support them.</string>
                                 <color key="textColor" red="0.4823529412" green="0.72941176470000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -114,8 +112,11 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpL-ak-N0J">
-                                <rect key="frame" x="80" y="433" width="215" height="32"/>
+                                <rect key="frame" x="80" y="405" width="215" height="60"/>
                                 <color key="backgroundColor" red="0.4823529412" green="0.72941176470000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="wUS-Dw-TzP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="View Products">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -137,7 +138,7 @@
                             <constraint firstItem="mck-vq-3Ix" firstAttribute="trailing" secondItem="MpL-ak-N0J" secondAttribute="trailing" constant="80" id="Es9-pa-eZm"/>
                             <constraint firstItem="BIo-gU-lIr" firstAttribute="leading" secondItem="mck-vq-3Ix" secondAttribute="leading" constant="25" id="Xhp-P9-Fz3"/>
                             <constraint firstItem="mck-vq-3Ix" firstAttribute="bottom" secondItem="BIo-gU-lIr" secondAttribute="bottom" constant="150" id="cMd-nO-A3X"/>
-                            <constraint firstItem="BIo-gU-lIr" firstAttribute="top" secondItem="mck-vq-3Ix" secondAttribute="top" constant="160" id="f9X-d2-jis"/>
+                            <constraint firstItem="BIo-gU-lIr" firstAttribute="top" secondItem="mck-vq-3Ix" secondAttribute="top" constant="170" id="f9X-d2-jis"/>
                             <constraint firstItem="mck-vq-3Ix" firstAttribute="trailing" secondItem="BIo-gU-lIr" secondAttribute="trailing" constant="25" id="h0G-Hb-eWv"/>
                             <constraint firstItem="MpL-ak-N0J" firstAttribute="leading" secondItem="mck-vq-3Ix" secondAttribute="leading" constant="80" id="v9B-Y1-rO7"/>
                         </constraints>
